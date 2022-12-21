@@ -1,0 +1,19 @@
+.form {
+  width: 50rem;
+  // padding: 1rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  > div {
+    flex: auto;
+  }
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
