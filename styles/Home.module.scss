@@ -7,9 +7,9 @@
 }
 
 .description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
@@ -134,17 +134,11 @@
 
 /* Mobile */
 @media (max-width: 700px) {
+
   .description {
-    display: none;
+    padding: 0px 10px;
   }
 
-  .mobile {
-    display: flex;
-    padding: 20px;
-    margin-bottom: 30px;
-    justify-content: flex-end;
-    width: 100%;
-  }
 
   .main {
     justify-content: unset;

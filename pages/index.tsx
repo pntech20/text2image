@@ -111,7 +111,7 @@ export default function Home() {
           </div>
           <ThemeToggle />
         </div>
-        <div className={styles.mobile}>
+        {/* <div className={styles.mobile}>
           <Menu shadow="md" width={200}>
             <Menu.Target>
               <Button>
@@ -142,7 +142,7 @@ export default function Home() {
               </Menu.Label>
             </Menu.Dropdown>
           </Menu>
-        </div>
+        </div> */}
         <Form setImages={setImages} />
 
         <div className={styles.center}>
