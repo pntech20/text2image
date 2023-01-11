@@ -20,7 +20,7 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
-          name="image"
+          // name="image"
           property="og:image"
           content="https://text2image-git-reponsive-page-pntech20.vercel.app/ms-icon-310x310.png"
         />
@@ -95,7 +95,7 @@ export default function Home() {
         />
         <link rel="manifest" href="/manifest.json" />
         <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+        {/* <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" /> */}
         <meta name="theme-color" content="#ffffff" />
       </Head>
       <main className={styles.main}>
