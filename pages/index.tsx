@@ -4,8 +4,6 @@ import Form from "./form";
 import Carousel from "./carousel";
 import ThemeToggle from "./themeToggle";
 import { useState } from "react";
-import { Button, Menu } from "@mantine/core";
-import { IconMenu } from "@tabler/icons";
 
 export default function Home() {
   const [images, setImages] = useState<string[]>([]);
@@ -21,11 +19,7 @@ export default function Home() {
           content="Welcome to our website, where you can easily transform your texts into beautiful, eye-catching images using OpenAI's advanced API technology. Whether you're a business owner looking to create engaging social media posts or a blogger looking to add some visual flair to your articles, our tool makes it simple and straightforward to turn your words into art."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          name="image"
-          property="og:image"
-          content="/apple-icon-180x180.png"
-        />
+        <meta name="image" property="og:image" content="/ms-icon-310x310.png" />
         <link
           rel="apple-touch-icon"
           sizes="57x57"
