@@ -20,11 +20,9 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
-          // name="image"
           property="og:image"
           content="https://text2image-git-reponsive-page-pntech20.vercel.app/ms-icon-310x310.png"
         />
-        {/* <meta property="og:image" content="https://mywebsite.com/images/s1.jpg"/> */}
 
         <meta property="og:image:width" content="1200" />
 
