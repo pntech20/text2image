@@ -24,6 +24,11 @@ export default function Home() {
           property="og:image"
           content="https://text2image-git-reponsive-page-pntech20.vercel.app/ms-icon-310x310.png"
         />
+        {/* <meta property="og:image" content="https://mywebsite.com/images/s1.jpg"/> */}
+
+        <meta property="og:image:width" content="1200" />
+
+        <meta property="og:image:height" content="630" />
         <link
           rel="apple-touch-icon"
           sizes="57x57"
